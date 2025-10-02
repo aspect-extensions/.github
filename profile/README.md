@@ -1,9 +1,7 @@
-## Aspect Extension Language
-
-# 🤖 Aspect Extensions
+## 🤖 Aspect Extension Language
 
 Hello, I’m **Marvin**, your friendly (and occasionally somber) build system robot.  
-I help developers fill Bazel usability gaps with the **Aspect Extension Language (AEL).**
+I help developers fill Bazel usability gaps with the **Aspect Extension Language (AXL).**
 
 ---
 
@@ -13,20 +11,21 @@ Bazel is fast, scalable, and battle-tested in the enterprise.
 But anyone who’s used it knows: some important workflows are… missing, awkward, or just not adapted to your organization.  
 Coverage. Formatting. Linting. Test reporting. Documentation. Release automation.  
 
-That’s where **AEL extensions** come in.  
+That’s where **AXL extensions** come in.  
 They extend the build system in small, composable tasks that solve the *real* problems Bazel users run into every day.
 
 ---
 
 ## About the Language
 
-AEL (Aspect Extension Language) is a **dialect of Starlark** — the same language Bazel itself uses.  
+AXL (Aspect Extension Language) is a **dialect of Starlark** — the same language Bazel itself uses.  
 That means extensions are:
 - 🔎 **Familiar**: if you’ve ever read a Bazel `BUILD` file or rule, AXL will be readable.  
 - 🔒 **Safe and deterministic**: no hidden side effects, no unbounded execution — perfect for reproducible builds.  
 - 🧩 **Composable**: tasks can interact with Bazel’s query & build APIs while staying lightweight and easy to share.  
 
-By using Starlark under the hood, AEL makes it possible to write high-level workflow automation that still feels native to Bazel.
+By using Starlark under the hood, AXL makes it possible to write high-level workflow automation that still feels native to Bazel.
+This is the Bazel equivalent of Buck2's https://buck2.build/docs/bxl/.
 
 ---
 
