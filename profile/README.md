@@ -31,7 +31,7 @@ This is the Bazel equivalent of Buck2's https://buck2.build/docs/bxl/.
 
 ## Example Extensions
 
-Here are some of the extensions you’ll find in this org:
+Some things that are possible using AXL:
 
 - 🔍 **Impacted Targets** → drive [`bazel-diff`](https://github.com/Tinder/bazel-diff) to know exactly which targets are affected by your changes.  
 - 📊 **Coverage** → a saner replacement for `bazel coverage`, with incremental coverage and CI-friendly LCOV output.  
