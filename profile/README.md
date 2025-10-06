@@ -1,6 +1,6 @@
 ## 🤖 Aspect Extension Language
 
-Hello, I’m **Marvin**, your friendly (and occasionally somber) build system robot.  
+Hello, I’m **Marvin**, your friendly build system robot.
 I help developers fill Bazel usability gaps with the **Aspect Extension Language (AXL).**
 
 ---
